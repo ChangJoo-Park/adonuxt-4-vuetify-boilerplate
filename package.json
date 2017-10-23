@@ -1,0 +1,50 @@
+{
+  "name": "adonuxt-4",
+  "version": "1.0.0",
+  "author": "Liam Potter",
+  "description": "Adonis + Nuxt boilerplate template",
+  "license": "MIT",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "dev": "adonis serve --dev",
+    "dev-debug": "adonis serve --dev --debug",
+    "build": "adonis nuxt:build",
+    "start": "cross-env NODE_ENV=production node server.js"
+  },
+  "keywords": [
+    "adonuxt",
+    "adonis",
+    "adonisjs",
+    "nuxt",
+    "nuxtjs",
+    "nuxt.js"
+  ],
+  "dependencies": {
+    "@adonisjs/ace": "^4.0.6",
+    "@adonisjs/auth": "^2.0.7",
+    "@adonisjs/bodyparser": "^1.0.7",
+    "@adonisjs/cors": "^1.0.1",
+    "@adonisjs/fold": "^4.0.4",
+    "@adonisjs/framework": "^4.0.24",
+    "@adonisjs/ignitor": "^1.0.12",
+    "@adonisjs/lucid": "^4.0.20",
+    "@adonisjs/session": "^1.0.16",
+    "@adonisjs/shield": "^1.0.3",
+    "@adonisjs/vow": "^1.0.12",
+    "cross-env": "^5.1.0",
+    "nuxt": "^1.0.0-rc9",
+    "vuetify": "^0.16.9"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
+  },
+  "standard": {
+    "globals": [
+      "use",
+      "make"
+    ]
+  }
+}
