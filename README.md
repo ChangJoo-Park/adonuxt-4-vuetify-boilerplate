@@ -2,7 +2,7 @@
 
 
 # AdoNuxt
-> [Adonis 4](http://dev.adonisjs.com/) + [Nuxt](https://nuxtjs.org) = :fire:
+> [Adonis 4](http://dev.adonisjs.com/) + [Nuxt](https://nuxtjs.org) + [Vuetify](https://vuetifyjs.com/)= :fire:
 
 
 ## Installation
@@ -16,10 +16,10 @@ npm install -g @adonisjs/cli
 Once you have the CLI installed you can clone this template using the CLI which will automatically install all dependencies (where `<project-name>` is the name of your project):
 ```bash
 # npm
-adonis new --blueprint liam-potter/adonuxt-4 <project-name>
+adonis new --blueprint changjoo-park/adonuxt-4-vuetify <project-name>
 
 # yarn
-adonis new --blueprint liam-potter/adonuxt-4 <project-name> --yarn
+adonis new --blueprint changjoo-park/adonuxt-4-vuetify <project-name> --yarn
 ```
 
 ## Getting Started
@@ -60,8 +60,10 @@ At some point I will update this boilerplate to also include a simple Nuxt CRUD 
 - [Adonis](https://dev.adonisjs.com/docs)
 - [Nuxt](https://nuxtjs.org/guide)
 - [Vue](https://vuejs.org/guide)
+- [Vuetify](https://vuetifyjs.com/)
 
 ## Licenses
 - [Adonis license](https://github.com/adonisjs/adonis-framework/blob/develop/LICENSE.txt)
 - [Nuxt license](https://github.com/nuxt/nuxt.js/blob/master/LICENSE.md)
 - [Vue license](https://github.com/vuejs/vue/blob/master/LICENSE)
+- [Vuetify license](https://github.com/vuetifyjs/vuetify/blob/dev/LICENSE)
