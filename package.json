@@ -1,8 +1,8 @@
 {
-  "name": "adonuxt-4",
+  "name": "adonuxt-4-vuetifyjs",
   "version": "1.0.0",
-  "author": "Liam Potter",
-  "description": "Adonis + Nuxt boilerplate template",
+  "author": "ChangJoo Park",
+  "description": "Adonis + Nuxt + Vuetify boilerplate template",
   "license": "MIT",
   "private": true,
   "main": "server.js",
