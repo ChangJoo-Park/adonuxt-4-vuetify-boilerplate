@@ -16,10 +16,10 @@ npm install -g @adonisjs/cli
 Once you have the CLI installed you can clone this template using the CLI which will automatically install all dependencies (where `<project-name>` is the name of your project):
 ```bash
 # npm
-adonis new --blueprint changjoo-park/adonuxt-4-vuetify <project-name>
+adonis new --blueprint ChangJoo-Park/adonuxt-4-vuetify-boilerplate <project-name>
 
 # yarn
-adonis new --blueprint changjoo-park/adonuxt-4-vuetify <project-name> --yarn
+adonis new --blueprint ChangJoo-Park/adonuxt-4-vuetify-boilerplate <project-name> --yarn
 ```
 
 ## Getting Started
